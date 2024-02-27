@@ -95,7 +95,7 @@ export const REMOVE_EDITOR_FORM_PAGE_SELECT: FormFunction = (data: Data) => {
                 type: "select",
                 label: "Which wiki page do you want to remove an editor from?",
                 options: wikiPathOptions,
-                defaultValue: [wikiPathOptions[0].value, wikiPathOptions[0].value],
+                defaultValue: [wikiPathOptions[0].value],
                 required: true,
                 multiSelect: false,
             },
