@@ -1,0 +1,3 @@
+export const DEFAULTS = {
+    INSTALL_MSG: "Thank you for installing WikiAssistant!\n\n**Please ensure your subreddit has the wiki enabled and set to mod-only.**\n\nPer wiki page access is granted to users by the app. You can create the wiki management post using a button in the subreddit's dropdown menu.\n\nUsers that are banned from the subreddit or the subreddit wiki are forbidden from using this feature.\n\n---\n\nThis is an automated message sent upon installation. If you have any questions or need help, please [contact the developer](https://www.reddit.com/message/compose/?to=PitchforkAssistant).",
+};
