@@ -40,7 +40,7 @@ export const NEW_WIKI_PAGE_FORM: Form = {
             type: "string",
             label: "Wiki Page Path",
             placeholder: "Enter the path for the new wiki page",
-            helpText: "Valid examples:\n my_page\n my_page/child_page\n my_page/child_page/grandchild_page",
+            helpText: "Examples:\n my_page\n my_page/child_page\n my_page/child_page/grandchild_page",
             required: true,
         },
     ],

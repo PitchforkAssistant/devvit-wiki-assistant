@@ -15,6 +15,7 @@ export const dangerousPaths = [
     "index", // Wiki index
     "pages", // Wiki pages list
     "botconfig", // Bot configuration, used as the root by contextmodbot and others
+    "my_page", // Used as an example in the wiki page path help text
     "automoderator", // Legacy automoderator config
     "automoderator-schedule",
 
