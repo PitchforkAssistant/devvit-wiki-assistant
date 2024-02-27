@@ -62,14 +62,16 @@ export const ADD_EDITOR_FORM: FormFunction = (data: Data) => {
             {
                 name: "wikiPath",
                 type: "select",
-                label: "Wiki Page Path",
+                label: "Wiki Page",
+                helpText: "Which wiki page do you want to add an editor to?",
                 options: wikiPathOptions,
                 required: true,
             },
             {
                 name: "editor",
                 type: "string",
-                label: "Editor",
+                label: "Editor Username",
+                helpText: "Who do you want to add as an editor to that page?",
                 placeholder: "Enter the username of the editor",
                 required: true,
             },
@@ -93,7 +95,8 @@ export const REMOVE_EDITOR_FORM_PAGE_SELECT: FormFunction = (data: Data) => {
             {
                 name: "wikiPath",
                 type: "select",
-                label: "Which wiki page do you want to remove an editor from?",
+                label: "Wiki Page",
+                helpText: "Which wiki page do you want to remove an editor from?",
                 options: wikiPathOptions,
                 defaultValue: [wikiPathOptions[0].value],
                 required: true,
@@ -130,7 +133,8 @@ export const REMOVE_EDITOR_FROM_PAGE: FormFunction = (data: Data) => {
             {
                 name: "editor",
                 type: "select",
-                label: "Which editor do you want to remove?",
+                label: "Editor Username",
+                helpText: "Which editor do you want to remove?",
                 options: editorOptions,
                 defaultValue: [editorOptions[0].value],
                 required: true,
